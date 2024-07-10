@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "manage-my-task",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
